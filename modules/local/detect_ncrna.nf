@@ -19,7 +19,7 @@ process DETECT_NCRNA {
     """
     path_rfam=${rfam_ncrna_models}
     if [[ ! -f \${path_rfam}/Rfam.cm ]];then
-	path_rfam=${rfam_ncrna_models}/ncrna_cms
+        path_rfam=${rfam_ncrna_models}/ncrna_cms
     fi
 
     cmscan \
